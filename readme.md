@@ -6,7 +6,8 @@ One http request uses storage three times for a file:
 * again to determine file’s type
 * and then to read the file content
 
-The essence of The Cache is that all of these datas are stored in a memory (in a binary tree) without using storage. --
+The essence of The Cache is that all of these datas are stored in a memory (in a binary tree) without using storage.
+
 Our solution is **thread safe** and optimal for a few thousand frequently used photos and other files.
 
 
