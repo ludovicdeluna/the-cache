@@ -10,7 +10,7 @@ The essence of The Cache is that all of these datas are stored in a memory (in a
 This solution is **thread safe** and optimal for a few thousand frequently used photos and other files.
 
 
-### How The Cahce works
+### How The Cache works
 
 * image cache: Resize the images by the given URL parameters (width / height / exact crop) and store the thumbnails in a binary tree (best for JPG and PNG). The original image isn’t even necessary to be stored in the cache.
 * file cache: Works in the same way as image cache but stores the original file (good for SVG, GIF etc.)
